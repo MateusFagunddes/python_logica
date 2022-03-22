@@ -6,4 +6,5 @@ denominador = int(input('indique o denominador: '))
 
 fracao = denominador / numerador
 
+
 print(fracao)

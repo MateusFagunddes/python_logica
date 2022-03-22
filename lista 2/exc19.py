@@ -7,6 +7,9 @@ coordenada  igual a zero. """
 x= int(input('insira a coordenada x: '))
 y= int(input('insira a coordenada y: '))
 
+if x == 0 or y==0:
+    print('as coordenadas não podem conter um valor ZERO!')
+
 if (x > 0) and (y > 0):
     print('você esta no primeiro quadrante')
 

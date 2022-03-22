@@ -1,5 +1,8 @@
-""" Dados 3 valores positivos (a, b, c), calcular: (a) área do triângulo retângulo com base
- a e altura b; (b) área do retângulo com base a e altura c; (c) área do trapézio com base
+""" Dados 3 valores positivos (a, b, c), calcular:
+ (a) área do triângulo retângulo com base
+ a e altura b; 
+ (b) área do retângulo com base a e altura c; 
+ (c) área do trapézio com base
   maior a, base menor b e altura c.  """
 
 a= 10
