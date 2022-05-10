@@ -4,7 +4,7 @@ intervalos: [0.25], [26,50], [51,75] e [76,100].
 A entrada de dados deve terminar quando for lido um número negativo.  """
 
 while True:
-    num = float(input('Valor: '))
+    num = int(input('Valor: '))
     if num >=0:
         if num >=0 and num <=25:
             print(f'o valor {num} esta entre 0 e 25')
