@@ -5,7 +5,7 @@ e Escreva uma mensagem que diga Se ela poderá ou não votar este ano
 ano_nascimento=int(input('insira o seu ano de nascimento: '))
 idade= 2022 - ano_nascimento
 
-if idade >= 18:
+if idade >= 16:
     print('você podera votar esse ano')
 else:
     print('você não podera votar esse ano')

@@ -3,7 +3,6 @@ ponto no sistema cartesiano e  Escreva o quadrante ao qual o
 ponto pertence.  Considere que o usuário não informará nenhuma 
 coordenada  igual a zero. """
 
-
 x= int(input('insira a coordenada x: '))
 y= int(input('insira a coordenada y: '))
 

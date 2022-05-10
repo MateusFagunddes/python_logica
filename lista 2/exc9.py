@@ -6,10 +6,9 @@
 
 altura= float(input('digite sua altura: '))
 sexo=int(input('insira seu sexo(1 para mulher, 2 para homem): '))
-peso= float()
 
 if sexo == 1:
     peso= (62.1 * altura) - 44.7
-elif sexo== 2:
+if sexo== 2:
     peso= (72.7 * altura) - 58   
-print('seu peso ideal é: '+ f'{peso:.2f}')
+print(f'seu peso ideal é: {peso:.2f}')

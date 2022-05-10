@@ -11,3 +11,4 @@ elif gol_gremio > gol_Inter:
     print(f'Grêmio campeão! O jogo terminou em {gol_gremio}x{gol_Inter} para o Grêmio')
 elif gol_Inter == gol_gremio:
     print('Empate!')    
+    
