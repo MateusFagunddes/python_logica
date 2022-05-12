@@ -9,3 +9,4 @@ while True:
         print(soma) 
     else:
         print('o valor informado é negativo!') 
+
