@@ -2,7 +2,7 @@
 em ordem crescente. """
 
 lista = []
-while len(lista)<=10:
+while len(lista)<=9:
     num = int(input('> '))
     if num not in lista:
         lista.append(num)

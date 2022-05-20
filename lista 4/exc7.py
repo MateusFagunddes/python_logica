@@ -18,6 +18,6 @@ for i in range(0,10):
 
 print(f'o vetor1 é: {vetor1}\n')
 print(f'o vetor2 é: {vetor2}\n')
-print(f'o vetor3 é: {vetor3}\n')
-print(f'os valores que constam em ambos os vetores são: {vetor4}')
+print(f'o vetor3 com os valores de vetor1 e vetor2 concatenados: {vetor3}\n')
+print(f'os valores que constam em ambos os vetores são: {vetor4}\n')
 
