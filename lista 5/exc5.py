@@ -6,12 +6,16 @@ def cAreaPerimetro(lados_poligonos,medida_do_lado):
 
     if lados_poligonos == 3 or lados_poligonos == 4 or lados_poligonos == 5:
         if lados_poligonos == 3:
-            print(f'O triângulo em um perimetro de {perimetro_triangulo}')
+            return f'O triângulo em um perimetro de {perimetro_triangulo}'
         elif lados_poligonos == 4:
-            print(f'O quadrado tem uma area de {area_quadrado}')
+            return f'O quadrado tem uma area de {area_quadrado}'
         elif lados_poligonos == 5:
-            print('É um pentágono') 
+            return 'É um pentágono' 
     else:
-        print('Insira um valor de lados entre 3, 4 ou 5!')
+        return 'Insira um valor de lados entre 3, 4 ou 5!'.upper()
         
-cAreaPerimetro(3,5)
+print(cAreaPerimetro(3,6))#triangulo
+print(cAreaPerimetro(4,6))#quadrado
+print(cAreaPerimetro(5,6))#pentágono
+
+print(cAreaPerimetro(6,6))#valor de lados invalido

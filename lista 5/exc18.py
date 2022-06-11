@@ -8,9 +8,9 @@ def listaCrescente():
         if num not in lista:
             lista.append(num)
             lista.sort()
-            print(lista) 
+            return lista 
         else:
-            print('numero informado já esta na lista!')
+            return 'numero informado já esta na lista!'
 
 
 listaCrescente()

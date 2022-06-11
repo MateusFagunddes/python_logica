@@ -3,7 +3,9 @@ ou ímpar (com parâmetro). """
 
 def nPar(num):
     if num%2 ==0:
-        print(f'{num} é par')
+        return f'{num} é par'
     else:
-        print(f'{num} não é par')
-nPar(4)
+        return f'{num} é impar'
+
+print(nPar(4))
+print(nPar(3))

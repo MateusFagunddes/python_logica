@@ -2,9 +2,8 @@
 
 def pa(a1,n,r):
     soma = 0
-    for i in range(a1, n *r+1, r):
-        print(i, end = ', ')
+    for i in range(a1, n *r, r):
         soma += i
-    print(f'a soma dos termos da progressào é de {soma}')
+    return f'primeiro termo: {a1}\nquantidade de termos: {n}\nrazão: {r}\nA soma dos termos da progressão é de {soma}'
 
-pa(0,10,5)
+print(pa(0,10,5))

@@ -9,15 +9,13 @@ matriz = np.asarray([[1,2,3,4,5],[6,7,8,9,10],[11,12,13,14,15],[16,17,18,19,20],
 print(matriz, '\n')
 
 contador = {}
+
 for l in matriz:
     for c in l:
         if np.sum(matriz==c)>1:
             contador[c] = np.sum(matriz==c)
 
-for numero in contador:
-    qtd = contador[numero]
+for numero, qtd in contador.items():
     print(f'o valor {numero} repetiu {qtd}', end= ', ')
 print('\n')
-
-
 

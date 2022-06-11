@@ -3,21 +3,21 @@
 def planoCartesiano(x,y):
     if x != 0 and y != 0:
         if (x > 0) and (y > 0):
-            print('você esta no primeiro quadrante')
+            return 'você esta no primeiro quadrante'
 
         elif (x < 0) and (y > 0):
-            print('você esta no segundo quadrante')
+            return 'você esta no segundo quadrante'
 
         elif (x < 0) and (y < 0):
-            print('você esta no terceiro quadrante')
+            return 'você esta no terceiro quadrante'
 
         elif (x > 0) and (y < 0):
-            print('você esta no quarto quadrante')
+            return 'você esta no quarto quadrante'
     else:
-        print('não esta em nehum quadrante!')
+        return 'não esta em nenhum quadrante!'
 
 
-planoCartesiano(5,1)
-planoCartesiano(-5,1)
-planoCartesiano(-5,-1)
-planoCartesiano(5,-1)
+print(planoCartesiano(5,1))#primeiro quadrante
+print(planoCartesiano(-5,1))#segundo quadrante
+print(planoCartesiano(-5,-1))#terceiro quadrante
+print(planoCartesiano(5,-1))#quarto quadrante

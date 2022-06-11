@@ -2,6 +2,6 @@
 
 def media(valor1, valor2):
     media = (valor1+ valor2)/2
-    print(f'a media entre os numeros informados é {media}')
+    return f'a media entre os números informados é {media}'
 
-media(10,12)
+print(media(10,12))

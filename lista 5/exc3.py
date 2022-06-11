@@ -6,9 +6,10 @@ def cMaca(macas_compradas):
 
     if macas_compradas >= 12:
         valor_a_pagar= preco_maca_mais12 * macas_compradas
-        print(f'o valor da compra de maças é de: R$ {valor_a_pagar}')
+        return f'o valor da compra de maças é de: R$ {valor_a_pagar:.2f}'
     else:
         valor_a_pagar= preco_maca_menos12 * macas_compradas
-        print(f'o valor da compra de maças é de: R$ {valor_a_pagar}')
+        return f'o valor da compra de maças é de: R$ {valor_a_pagar:.2f}'
 
-cMaca(12)
+print(cMaca(12))
+print(cMaca(9))
