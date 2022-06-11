@@ -1,4 +1,4 @@
-# atividades de logica em python
+# Atividades de logica em python
 * Atividades proposta em sala de aula da faculdade
 
 - /lista 1: introdução a variáveis 
